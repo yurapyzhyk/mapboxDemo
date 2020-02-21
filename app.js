@@ -52,7 +52,7 @@ function styleFeatures() {
 
 function initFeatures() {
     featureLayer.getLayers().forEach((value => {
-        value.bindPopup('Yard data');
+        value.bindPopup('Ward data');
         applyStyle(value);
     }))
 }
